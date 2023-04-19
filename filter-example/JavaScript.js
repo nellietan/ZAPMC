@@ -1,3 +1,6 @@
+const tabs = document.querySelectorAll('.tab');
+const tabContents = document.querySelectorAll('.tab-content');
+
 tabs.forEach(tab => {
   tab.addEventListener('click', () => {
     const tabId = tab.getAttribute('data-tab');
