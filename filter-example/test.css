@@ -1,0 +1,44 @@
+.filter-tabs {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.filter-tab {
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-tab.active {
+  background-color: #c0c0c0;
+}
+
+.filter-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-item {
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.filter-item.apple {
+  background-color: #ffcccc;
+}
+
+.filter-item.banana {
+  background-color: #ffffcc;
+}
+
+.filter-item.orange {
+  background-color: #ffe5cc;
+}
